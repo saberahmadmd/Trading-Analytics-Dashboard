@@ -183,7 +183,7 @@ export default function Home() {
     <Layout>
       <div className="container">
         <div className="header">
-          <h1>Pump.fun Trading Analytics</h1>
+          <h1>Trading Analytics</h1>
           <p>Real-time RSI and Price Monitoring</p>
           <div className="connection-status">
             Status: <span className={`status ${connectionStatus}`}>{connectionStatus}</span>
