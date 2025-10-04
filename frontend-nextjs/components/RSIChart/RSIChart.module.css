@@ -1,0 +1,36 @@
+.rsiChart .chartContainer {
+  margin-top: 10px;
+}
+
+.rsiLegends {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+}
+
+.legendColor {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.oversold {
+  background: #4ecdc4;
+}
+
+.neutral {
+  background: #ffd166;
+}
+
+.overbought {
+  background: #ff6b6b;
+}

@@ -1,0 +1,27 @@
+.tokenSelector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tokenLabel {
+  font-weight: bold;
+  color: #64ffda;
+}
+
+.tokenSelect {
+  background: #1a1a2e;
+  color: white;
+  border: 1px solid #2d2d4d;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  min-width: 150px;
+}
+
+.tokenSelect:focus {
+  outline: none;
+  border-color: #64ffda;
+  box-shadow: 0 0 0 2px rgba(100, 255, 218, 0.2);
+}

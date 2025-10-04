@@ -1,0 +1,13 @@
+{
+  "name": "data-ingestion",
+  "version": "1.0.0",
+  "description": "CSV to Redpanda data ingestion",
+  "main": "producer.js",
+  "scripts": {
+    "start": "node producer.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "kafkajs": "^2.2.4"
+  }
+}

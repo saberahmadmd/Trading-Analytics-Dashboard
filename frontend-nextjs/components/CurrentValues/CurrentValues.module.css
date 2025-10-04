@@ -1,0 +1,57 @@
+.currentValues .valuesGrid {
+  display: grid;
+  gap: 10px;
+}
+
+.valueItem {
+  padding: 15px;
+  background: #16213e;
+  border-radius: 8px;
+  border-left: 4px solid #64ffda;
+  transition: all 0.3s ease;
+}
+
+.valueItem.overbought {
+  border-left-color: #ff6b6b;
+}
+
+.valueItem.oversold {
+  border-left-color: #4ecdc4;
+}
+
+.tokenName {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #64ffda;
+}
+
+.price {
+  color: #ccc;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.rsi {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #2d2d4d;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.rsi.overbought {
+  background: #ff6b6b;
+  color: white;
+}
+
+.rsi.oversold {
+  background: #4ecdc4;
+  color: white;
+}
+
+.rsi.neutral {
+  background: #f9c74f;
+  color: #333;
+}
